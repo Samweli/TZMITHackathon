@@ -1,0 +1,268 @@
+@charset "utf-8";
+/* Phone */
+@import url("phone.css") only screen and (max-width:320px);
+/* Tablet */
+@import url("tablet.css") only screen and (min-width:321px) and (max-width:768px);
+/* Desktop */
+@import url("desktop.css") only screen and (min-width:769px);
+
+/* CSS Document */
+body {
+
+}
+
+body h4, a, p{
+	font-size: 12px;
+	font-family: Georgia, "Times New Roman", Times, serif;	
+}
+
+body table{
+	text-align: left;
+	font-size: 12px; 
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding-left: 10px;	
+}
+
+body table th{
+		color: #000;	
+}
+
+body table td{
+	color: #0CF;	
+}
+
+body table a{
+	color: #960;	
+}
+
+body ul li{
+	list-style: none;
+}	
+
+
+
+#wrapper {
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 95%;
+	height: 620px;	
+}
+
+#content div {
+	float: left;	
+}
+
+#banner {
+	background: rgba(204,204,204,0.2);
+	border: 1px solid #CCC;
+	width: 100%;
+
+}
+
+#banner h4{
+	font-size: 20px;
+	font-family: Georgia, "Times New Roman", Times, serif;	
+	text-align: center;
+	color: #000;
+	margin-top: 30px;
+}
+
+#banner h4 a{
+	color: #0CF;	
+}
+
+
+#services{
+	background: rgba(204,204,204,0.2);		
+	padding: 10px;
+	border-top: 1px solid #CCC;
+	border-radius: 0px 0px 0px 50px;
+}
+
+#services h4{
+	background: #000;
+	padding: 5px;
+	color: #FFF;
+	padding-left: 30px;
+}
+
+
+#services ul{
+	margin-left: -15px;
+	list-style: circle;	
+}
+
+#services ul li{
+	-webkit-transition: all 2s ease-in-out; 
+	-moz-transition: all 2s ease-in-out; 
+	-o-transition: all 2s ease-in-out; 
+	-ms-transition: all 2s ease-in-out; 
+	transition: all 1s ease-in-out;	
+	transform-origin: left;
+	-webkit-transform-origin: left;
+}
+
+#services ul li:hover{
+	transform: scale(2);
+	-webkit-transform: scale(2);
+	-webkit-transition: all 2s ease-in-out; 
+	-moz-transition: all 2s ease-in-out; 
+	-o-transition: all 2s ease-in-out; 
+	-ms-transition: all 2s ease-in-out; 
+	transition: all 1s ease-in-out;	
+		transform-origin: left;
+	-webkit-transform-origin: left;
+}
+#services ul li a{
+	color: #4D90FB;	
+}
+
+#services ul li a:hover{
+	color: #000;	
+	text-decoration: none;
+}
+
+.act_content {
+	border-left: 1px solid #CCC;
+	width: 800px;	
+	height: 500px;
+	overflow: auto;
+}
+
+
+.act_content #welcome{
+
+	padding: 10px;
+	border-bottom: 1px solid #CCC;
+}
+
+.act_content #welcome article {
+	clear: 	both;
+	padding: 5px;
+	margin: 5px;
+	border-bottom: 1px solid #CCC;	
+}
+
+.act_content #welcome h4{
+	font-size: 12px;
+	padding: 5px;
+	color: #000;
+}
+
+
+.act_content #welcome img{
+	padding: 10px;
+	width: 150px;
+	height: 100px;
+	-webkit-transition: all 2s ease-in-out; 
+	-moz-transition: all 2s ease-in-out; 
+	-o-transition: all 2s ease-in-out; 
+	-ms-transition: all 2s ease-in-out; 
+	transition: all 1s ease-in-out;	
+		transform-origin: left;
+	-webkit-transform-origin: left;
+}	
+
+.act_content #welcome img:hover{
+	transform: scale(2);
+	-webkit-transform: scale(2);
+	-webkit-transition: all 2s ease-in-out; 
+	-moz-transition: all 2s ease-in-out; 
+	-o-transition: all 2s ease-in-out; 
+	-ms-transition: all 2s ease-in-out; 
+	transition: all 1s ease-in-out;	
+		transform-origin: left;
+	-webkit-transform-origin: left;
+	-webkit-transform: rotate(360deg) scale(2); 
+	-moz-transform: rotate(360deg) scale(2);
+}	
+
+
+.act_content #welcome p{
+	padding: 5px;	
+	text-align: justify;
+}
+
+.act_content #welcome a{
+	color: #0CF;	
+}
+.act_content #welcome a:hover{
+	color: #666;
+	text-decoration: none;
+}
+
+#done img{
+	float: left;
+	width: 150px;	
+	height: 120px;
+	padding: 10px;
+}
+
+
+
+#footer {
+	padding: 5px;
+	font-size: 12px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background: rgba(204,204,204,0.1);
+	margin-top: 10px;
+	width: 100%;
+	color: #000;
+	border: 1px solid #CCC;
+}
+
+#footer a{
+	color: #333;	
+}
+
+#footer a:hover{
+	color: #0CF;
+	text-decoration: none;	
+}
+
+#contact_details {
+	display: none;
+	top: 115px;
+	right: 84px;
+	width: 500px;
+	padding: 20px;
+	position: fixed;	
+	background: #000;
+	background: rgba(255,255,255,.9);
+	border: 1px solid #000;
+	
+}
+
+#contact_details h4{
+	background: rgba(204,204,204,0.3);
+	border: 1px solid #CCC;
+	padding:  5px;
+}
+
+#contact_details h4 a{
+	color: rgba(51,51,51,1);	
+}
+
+#contact_details h4 a:hover{
+	text-decoration: none;	
+}
+
+#sideright{
+	padding-left: 10px;
+	width: 249px;
+	background: rgba(204,204,204,0.3);		
+	height: 500px;
+	border-radius: 0px 0px 50px 0px;
+}
+
+#sideright h4{
+	background: #000;
+	padding: 5px;
+	color: #FFF;
+
+}
+
+
+#sideright ul{
+
+}
